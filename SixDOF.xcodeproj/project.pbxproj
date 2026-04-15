@@ -16,6 +16,7 @@
 		F9DF0D1E5FC64416B66C2935 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B9D9A5541F425BB2C8058B /* Metal.framework */; };
 		A1B2C3D4E5F6A7B8C9D0E1F2 /* TexturePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6A7B8C9D0E1F2A3 /* TexturePool.swift */; };
 		D4E5F6A7B8C9D0E1F2A3B4C5 /* CaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6A7B8C9D0E1F2A3B4C5D6 /* CaptureManager.swift */; };
+		F1A2B3C4D5E6F7A8B9C0D1E2 /* WindowPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E4F5A6B7C8D9E0F1A2B3 /* WindowPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0033485A689B43BEAD3F0DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C3D4E5F6A7B8C9D0E1F2A3 /* TexturePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturePool.swift; sourceTree = "<group>"; };
 		E5F6A7B8C9D0E1F2A3B4C5D6 /* CaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureManager.swift; sourceTree = "<group>"; };
+		C2D3E4F5A6B7C8D9E0F1A2B3 /* WindowPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowPicker.swift; sourceTree = "<group>"; };
 		B2D4F6A8C1034E7993E2F5B0 /* PermissionGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionGateway.swift; sourceTree = "<group>"; };
 		F5E59AB5CD814A3CAE15A4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F2C37A3BBC4B8797F5E1A7 /* SixDOF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixDOF.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,7 @@
 			children = (
 				B2C3D4E5F6A7B8C9D0E1F2A3 /* TexturePool.swift */,
 				E5F6A7B8C9D0E1F2A3B4C5D6 /* CaptureManager.swift */,
+				C2D3E4F5A6B7C8D9E0F1A2B3 /* WindowPicker.swift */,
 			);
 			path = Capture;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				A1B2C3D4E5F6A7B8C9D0E1F2 /* TexturePool.swift in Sources */,
 				D4E5F6A7B8C9D0E1F2A3B4C5 /* CaptureManager.swift in Sources */,
 				A1C3D5E7F0924B6882D1E3A9 /* PermissionGateway.swift in Sources */,
+				F1A2B3C4D5E6F7A8B9C0D1E2 /* WindowPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

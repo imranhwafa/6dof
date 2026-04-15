@@ -69,21 +69,21 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCK-01 | Phase 1 | Pending |
-| SCK-02 | Phase 1 | Pending |
-| SCK-03 | Phase 1 | Pending |
-| SCK-04 | Phase 1 | Pending |
-| ARC-03 | Phase 1 | Pending |
-| RND-01 | Phase 2 | Pending |
-| RND-02 | Phase 2 | Pending |
-| RND-03 | Phase 2 | Pending |
-| RND-04 | Phase 2 | Pending |
-| TRK-01 | Phase 3 | Pending |
-| TRK-02 | Phase 3 | Pending |
-| TRK-03 | Phase 3 | Pending |
-| TRK-04 | Phase 3 | Pending |
-| ARC-01 | Phase 4 | Pending |
-| ARC-02 | Phase 4 | Pending |
+| SCK-01 | Phase 1 — Capture Foundation | Pending |
+| SCK-02 | Phase 1 — Capture Foundation | Pending |
+| SCK-03 | Phase 1 — Capture Foundation | Pending |
+| SCK-04 | Phase 1 — Capture Foundation | Pending |
+| ARC-03 | Phase 1 — Capture Foundation | Pending |
+| RND-01 | Phase 2 — Stereo Render Pipeline | Pending |
+| RND-02 | Phase 2 — Stereo Render Pipeline | Pending |
+| RND-03 | Phase 2 — Stereo Render Pipeline | Pending |
+| RND-04 | Phase 2 — Stereo Render Pipeline | Pending |
+| TRK-01 | Phase 3 — Head Tracking and World-Lock | Pending |
+| TRK-02 | Phase 3 — Head Tracking and World-Lock | Pending |
+| TRK-03 | Phase 3 — Head Tracking and World-Lock | Pending |
+| TRK-04 | Phase 3 — Head Tracking and World-Lock | Pending |
+| ARC-01 | Phase 4 — Integration and End-to-End | Pending |
+| ARC-02 | Phase 4 — Integration and End-to-End | Pending |
 
 **Coverage:**
 - v1 requirements: 15 total
@@ -92,4 +92,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-04-14*
-*Last updated: 2026-04-14 after initial definition*
+*Last updated: 2026-04-14 after roadmap creation*

@@ -31,7 +31,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. TexturePool hands off MTLTexture to render-side consumer with correct IOSurface blit discipline (blit-and-release within captureOutput, no sample buffer held across frames)
 **Plans**: 5 plans
 Plans:
-- [ ] 01-01-PLAN.md — Xcode project scaffold (AppKit lifecycle, macOS 13, frameworks linked, NSScreenCaptureUsageDescription)
+- [x] 01-01-PLAN.md — Xcode project scaffold (AppKit lifecycle, macOS 13, frameworks linked, NSScreenCaptureUsageDescription)
 - [ ] 01-02-PLAN.md — PermissionGateway (TCC probe, async request, denied-state NSAlert recovery)
 - [ ] 01-03-PLAN.md — TexturePool + CaptureManager (triple-buffer, blit-and-release, CVMetalTextureCache, -3821 monitoring)
 - [ ] 01-04-PLAN.md — WindowPicker (SCShareableContent enumeration, SCContentFilter factory)
@@ -79,7 +79,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Capture Foundation | 0/5 | Not started | - |
+| 1. Capture Foundation | 1/5 | In Progress|  |
 | 2. Stereo Render Pipeline | 0/? | Not started | - |
 | 3. Head Tracking and World-Lock | 0/? | Not started | - |
 | 4. Integration and End-to-End | 0/? | Not started | - |

@@ -8,7 +8,7 @@
 ### Capture
 
 - [x] **SCK-01**: App requests Screen Recording permission on first launch and handles denied/revoked state gracefully
-- [ ] **SCK-02**: User can select which macOS window to display on each of the two virtual monitors
+- [x] **SCK-02**: User can select which macOS window to display on each of the two virtual monitors
 - [x] **SCK-03**: App captures live window frames via SCStream using IOSurface zero-copy path (no CPU memcpy)
 - [x] **SCK-04**: Capture layer handles static-content frames gracefully (SCK optimization — no tearing or freezing when window hasn't changed)
 
@@ -70,7 +70,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | SCK-01 | Phase 1 — Capture Foundation | Complete |
-| SCK-02 | Phase 1 — Capture Foundation | Pending |
+| SCK-02 | Phase 1 — Capture Foundation | Complete |
 | SCK-03 | Phase 1 — Capture Foundation | Complete |
 | SCK-04 | Phase 1 — Capture Foundation | Complete |
 | ARC-03 | Phase 1 — Capture Foundation | Complete |

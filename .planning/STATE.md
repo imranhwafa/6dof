@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: Ready to execute
-stopped_at: Completed 01-capture-foundation/01-02-PLAN.md
-last_updated: "2026-04-15T04:21:17.450Z"
+stopped_at: Completed 01-capture-foundation/01-03-PLAN.md
+last_updated: "2026-04-15T04:22:53.201Z"
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 5
-  completed_plans: 2
+  completed_plans: 3
 ---
 
 # Project State
@@ -24,7 +24,7 @@ See: .planning/PROJECT.md (updated 2026-04-14)
 ## Current Position
 
 Phase: 01 (capture-foundation) — EXECUTING
-Plan: 3 of 5
+Plan: 4 of 5
 
 ## Performance Metrics
 
@@ -48,6 +48,7 @@ Plan: 3 of 5
 *Updated after each plan completion*
 | Phase 01-capture-foundation P01 | 3 | 2 tasks | 4 files |
 | Phase 01-capture-foundation P02 | 3 | 1 tasks | 3 files |
+| Phase 01-capture-foundation P03 | 6 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -64,6 +65,8 @@ Recent decisions affecting current work:
 - [Phase 01-capture-foundation]: SWIFT_STRICT_CONCURRENCY=minimal — Phase 1 NSLock threading model; will revisit when deployment target rises
 - [Phase 01-capture-foundation]: showDeniedAlert() terminates app on denied — unrecoverable without relaunch; NSAlert links to System Settings Screen Recording pref
 - [Phase 01-capture-foundation]: Permission deferred to Task after makeKeyAndOrderFront — avoids TCC dialog before window (Pitfall 4)
+- [Phase 01-capture-foundation]: TexturePool.ownedTexture(monitor:bufferIndex:) added as package-internal accessor for CaptureManager blit destination
+- [Phase 01-capture-foundation]: CVMetalTextureCache created once at CaptureManager init, reused per frame at 60fps
 
 ### Pending Todos
 
@@ -76,6 +79,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-15T04:21:17.447Z
-Stopped at: Completed 01-capture-foundation/01-02-PLAN.md
+Last session: 2026-04-15T04:22:53.198Z
+Stopped at: Completed 01-capture-foundation/01-03-PLAN.md
 Resume file: None

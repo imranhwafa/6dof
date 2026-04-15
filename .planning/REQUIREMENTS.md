@@ -9,8 +9,8 @@
 
 - [x] **SCK-01**: App requests Screen Recording permission on first launch and handles denied/revoked state gracefully
 - [ ] **SCK-02**: User can select which macOS window to display on each of the two virtual monitors
-- [ ] **SCK-03**: App captures live window frames via SCStream using IOSurface zero-copy path (no CPU memcpy)
-- [ ] **SCK-04**: Capture layer handles static-content frames gracefully (SCK optimization — no tearing or freezing when window hasn't changed)
+- [x] **SCK-03**: App captures live window frames via SCStream using IOSurface zero-copy path (no CPU memcpy)
+- [x] **SCK-04**: Capture layer handles static-content frames gracefully (SCK optimization — no tearing or freezing when window hasn't changed)
 
 ### Rendering
 
@@ -30,7 +30,7 @@
 
 - [ ] **ARC-01**: CaptureManager, RenderEngine, and TrackingProvider implemented as protocol-backed, independently-testable modules
 - [ ] **ARC-02**: `HeadPose` struct includes `position: SIMD3<Float>` (zero vector for v1) so 6DOF positional tracking can be dropped in without refactoring
-- [ ] **ARC-03**: `TexturePool` handles SCStream → Metal texture hand-off with correct IOSurface blit discipline (blit immediately, release sample buffer before returning from `captureOutput`)
+- [x] **ARC-03**: `TexturePool` handles SCStream → Metal texture hand-off with correct IOSurface blit discipline (blit immediately, release sample buffer before returning from `captureOutput`)
 
 ## v2 Requirements
 
@@ -71,9 +71,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | SCK-01 | Phase 1 — Capture Foundation | Complete |
 | SCK-02 | Phase 1 — Capture Foundation | Pending |
-| SCK-03 | Phase 1 — Capture Foundation | Pending |
-| SCK-04 | Phase 1 — Capture Foundation | Pending |
-| ARC-03 | Phase 1 — Capture Foundation | Pending |
+| SCK-03 | Phase 1 — Capture Foundation | Complete |
+| SCK-04 | Phase 1 — Capture Foundation | Complete |
+| ARC-03 | Phase 1 — Capture Foundation | Complete |
 | RND-01 | Phase 2 — Stereo Render Pipeline | Pending |
 | RND-02 | Phase 2 — Stereo Render Pipeline | Pending |
 | RND-03 | Phase 2 — Stereo Render Pipeline | Pending |

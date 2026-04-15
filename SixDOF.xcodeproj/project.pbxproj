@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		605DCC53358E44AE93209AEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB35B9E3654C108EB9F9A4 /* main.swift */; };
 		941BF80D3C9D4A2985E442B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033485A689B43BEAD3F0DCB /* AppDelegate.swift */; };
+		A1C3D5E7F0924B6882D1E3A9 /* PermissionGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4F6A8C1034E7993E2F5B0 /* PermissionGateway.swift */; };
 		224DB5C4950C443393142251 /* ScreenCaptureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9238B5ED5D74689B7689E94 /* ScreenCaptureKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		22C60DA4868D453893897A16 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7F61C63084BB18FEE0123 /* CoreVideo.framework */; };
 		B5A0F1E0A9F6468E975BE8E6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B35FBB24464775A7C8F2D6 /* CoreMedia.framework */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		62AB35B9E3654C108EB9F9A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0033485A689B43BEAD3F0DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2D4F6A8C1034E7993E2F5B0 /* PermissionGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionGateway.swift; sourceTree = "<group>"; };
 		F5E59AB5CD814A3CAE15A4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F2C37A3BBC4B8797F5E1A7 /* SixDOF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixDOF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9238B5ED5D74689B7689E94 /* ScreenCaptureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenCaptureKit.framework; path = System/Library/Frameworks/ScreenCaptureKit.framework; sourceTree = SDKROOT; };
@@ -47,8 +49,17 @@
 				62AB35B9E3654C108EB9F9A4 /* main.swift */,
 				0033485A689B43BEAD3F0DCB /* AppDelegate.swift */,
 				F5E59AB5CD814A3CAE15A4DF /* Info.plist */,
+				C7E1A2B3D4054F8AA5C6D7E8 /* Permissions */,
 			);
 			path = SixDOF;
+			sourceTree = "<group>";
+		};
+		C7E1A2B3D4054F8AA5C6D7E8 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4F6A8C1034E7993E2F5B0 /* PermissionGateway.swift */,
+			);
+			path = Permissions;
 			sourceTree = "<group>";
 		};
 		839DF4F8A1294953BCF6E0C7 /* Frameworks */ = {
@@ -149,6 +160,7 @@
 			files = (
 				605DCC53358E44AE93209AEF /* main.swift in Sources */,
 				941BF80D3C9D4A2985E442B3 /* AppDelegate.swift in Sources */,
+				A1C3D5E7F0924B6882D1E3A9 /* PermissionGateway.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

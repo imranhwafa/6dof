@@ -3,6 +3,7 @@ import AppKit
 final class AppDelegate: NSObject, NSApplicationDelegate {
 
     private var mainWindow: NSWindow?
+    private let permissionGateway = PermissionGateway()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         // Create minimal window — must be visible before any SCK permission calls
@@ -17,7 +18,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         window.makeKeyAndOrderFront(nil)
         mainWindow = window
 
-        // Permission flow is triggered AFTER window is visible — see PermissionGateway (Plan 02)
+        // Permission must be requested AFTER the window is visible — never at launch
+        Task { @MainActor in
+            let status = await self.permissionGateway.requestPermission()
+            print("[AppDelegate] Screen recording permission: \(status)")
+            // CaptureManager start will be gated here in Plan 04
+        }
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {

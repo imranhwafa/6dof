@@ -35,7 +35,7 @@ Plans:
 - [x] 01-02-PLAN.md — PermissionGateway (TCC probe, async request, denied-state NSAlert recovery)
 - [x] 01-03-PLAN.md — TexturePool + CaptureManager (triple-buffer, blit-and-release, CVMetalTextureCache, -3821 monitoring)
 - [x] 01-04-PLAN.md — WindowPicker (SCShareableContent enumeration, SCContentFilter factory)
-- [ ] 01-05-PLAN.md — AppCoordinator wiring + 10-minute pipeline verification checkpoint
+- [x] 01-05-PLAN.md — AppCoordinator wiring + 10-minute pipeline verification checkpoint
 
 ### Phase 2: Stereo Render Pipeline
 **Goal**: RenderEngine renders two floating monitor quads in correct side-by-side stereo at 60fps on the Viture Luma Ultra display

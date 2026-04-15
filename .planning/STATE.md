@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: Ready to execute
-stopped_at: Completed 01-capture-foundation/01-04-PLAN.md
-last_updated: "2026-04-15T04:27:03.565Z"
+status: Phase complete — ready for verification
+stopped_at: Completed 01-capture-foundation/01-05-PLAN.md
+last_updated: "2026-04-15T04:38:18.715Z"
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 5
-  completed_plans: 4
+  completed_plans: 5
 ---
 
 # Project State
@@ -50,6 +50,7 @@ Plan: 5 of 5
 | Phase 01-capture-foundation P02 | 3 | 1 tasks | 3 files |
 | Phase 01-capture-foundation P03 | 6 | 2 tasks | 3 files |
 | Phase 01-capture-foundation P04 | 2 | 1 tasks | 2 files |
+| Phase 01-capture-foundation P05 | 20 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -70,6 +71,9 @@ Recent decisions affecting current work:
 - [Phase 01-capture-foundation]: CVMetalTextureCache created once at CaptureManager init, reused per frame at 60fps
 - [Phase 01-capture-foundation]: SCContentFilter(desktopIndependentWindow:) for per-window capture — decouples window selection from display layout in WindowPicker
 - [Phase 01-capture-foundation]: SCShareableContent.excludingDesktopWindows used for window enumeration — avoids deprecated CGWindowListCreateImage and extra TCC prompts on macOS 15
+- [Phase 01-capture-foundation]: AppCoordinator is @MainActor final class — pipeline orchestration on main actor matches AppDelegate lifecycle
+- [Phase 01-capture-foundation]: Phase 1 auto-selects first two enumerated windows for capture — Phase 4 will add UI picker (SCK-02 full UX)
+- [Phase 01-capture-foundation]: coord.start() called after makeKeyAndOrderFront in AppDelegate — satisfies TCC deferred permission pattern (Pitfall 4)
 
 ### Pending Todos
 
@@ -82,6 +86,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-15T04:27:03.562Z
-Stopped at: Completed 01-capture-foundation/01-04-PLAN.md
+Last session: 2026-04-15T04:38:18.712Z
+Stopped at: Completed 01-capture-foundation/01-05-PLAN.md
 Resume file: None

@@ -13,11 +13,13 @@
 		22C60DA4868D453893897A16 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA7F61C63084BB18FEE0123 /* CoreVideo.framework */; };
 		B5A0F1E0A9F6468E975BE8E6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B35FBB24464775A7C8F2D6 /* CoreMedia.framework */; };
 		F9DF0D1E5FC64416B66C2935 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B9D9A5541F425BB2C8058B /* Metal.framework */; };
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* TexturePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6A7B8C9D0E1F2A3 /* TexturePool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62AB35B9E3654C108EB9F9A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0033485A689B43BEAD3F0DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2C3D4E5F6A7B8C9D0E1F2A3 /* TexturePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturePool.swift; sourceTree = "<group>"; };
 		F5E59AB5CD814A3CAE15A4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F2C37A3BBC4B8797F5E1A7 /* SixDOF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixDOF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9238B5ED5D74689B7689E94 /* ScreenCaptureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenCaptureKit.framework; path = System/Library/Frameworks/ScreenCaptureKit.framework; sourceTree = SDKROOT; };
@@ -41,12 +43,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3D4E5F6A7B8C9D0E1F2A3B4 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3D4E5F6A7B8C9D0E1F2A3 /* TexturePool.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
 		DC1C318FC90345F38DEA647D /* SixDOF */ = {
 			isa = PBXGroup;
 			children = (
 				62AB35B9E3654C108EB9F9A4 /* main.swift */,
 				0033485A689B43BEAD3F0DCB /* AppDelegate.swift */,
 				F5E59AB5CD814A3CAE15A4DF /* Info.plist */,
+				C3D4E5F6A7B8C9D0E1F2A3B4 /* Capture */,
 			);
 			path = SixDOF;
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 			files = (
 				605DCC53358E44AE93209AEF /* main.swift in Sources */,
 				941BF80D3C9D4A2985E442B3 /* AppDelegate.swift in Sources */,
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* TexturePool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
